@@ -12,26 +12,7 @@
   background-color: gray;
 }
 
-.app-header {
-  grid-area: header;
-  background-color: white;
-}
 
-.app-header img {
-  height: 10vh;
-}
 
-.app-nav {
-  grid-area: nav;
-  background-color: #0c222f;
-  font-size: 4vh;
-  padding-left: 1vw;
-  padding-bottom: 2vh;
-  color: white;
-}
-
-.app-nav div{
-  padding-bottom: 2vh;
-}
 
 

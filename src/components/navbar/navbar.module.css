@@ -1,0 +1,13 @@
+.app_nav {
+    grid-area: nav;
+    background-color: #0c222f;
+    font-size: 4vh;
+    padding-left: 1vw;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    color: white;
+}
+
+.sections {
+    padding-bottom: 1.5vh;
+}
