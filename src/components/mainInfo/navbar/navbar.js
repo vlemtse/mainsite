@@ -1,5 +1,4 @@
 import c from './navbar.module.css'
-import links from './../../links.js'
 
 const defLink = '#';
 

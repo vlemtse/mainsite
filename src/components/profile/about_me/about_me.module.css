@@ -1,6 +1,0 @@
-.about_me {
-    grid-area: am;
-    display: grid;
-    grid-template-columns: 30vh 70fr;
-    grid-column-gap: 1vh;
-}

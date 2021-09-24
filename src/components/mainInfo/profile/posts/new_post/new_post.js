@@ -1,11 +1,11 @@
 import c from './new_post.module.css'
 
-const New_post = () => {
+const NewPost = () => {
   return (
-      <div>
+      <div className={c.new_post}>
         New post ы
       </div>
   )
 }
 
-export default New_post
+export default NewPost

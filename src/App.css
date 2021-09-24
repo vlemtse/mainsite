@@ -1,15 +1,12 @@
 .app {
-  display: grid;
+    display: grid;
 
-  grid-template-areas:
-          "header header"
-          "nav profile";
-  grid-template-rows: 10vh 89vh;
-  grid-template-columns: 19vw 80vw;
-  grid-column-gap: 1vw;
-  grid-row-gap: 1vh;
-
-  background-color: gray;
+    grid-template-areas:
+          "header"
+          "mainInfo";
+    grid-template-rows: 10vh 89vh;
+    grid-row-gap: 1vh;
+    background-color: gray;
 }
 
 

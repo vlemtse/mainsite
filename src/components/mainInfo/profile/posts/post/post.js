@@ -2,7 +2,7 @@ import c from './post.module.css'
 
 const Post = () => {
   return (
-      <div>
+      <div className={c.post}>
         Post1
       </div>
   )
