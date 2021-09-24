@@ -1,0 +1,6 @@
+.main {
+    grid-area: allPosts;
+    display: grid;
+    grid-gap: 1vh;
+
+}

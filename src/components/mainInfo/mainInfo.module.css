@@ -1,0 +1,15 @@
+.main {
+  grid-area: mainInfo;
+  display: grid;
+
+  grid-template-areas: "nav profilePage";
+  grid-template-columns: 19vw 80vw;
+  grid-column-gap: 1vw;
+
+  background-color: gray;
+}
+
+
+
+
+

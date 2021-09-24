@@ -1,37 +1,15 @@
 .app {
-  display: grid;
+    display: grid;
 
-  grid-template-areas:
-          "header header"
-          "nav profile";
-  grid-template-rows: 10vh 89vh;
-  grid-template-columns: 19vw 80vw;
-  grid-column-gap: 1vw;
-  grid-row-gap: 1vh;
-
-  background-color: gray;
+    grid-template-areas:
+          "header"
+          "mainInfo";
+    grid-template-rows: 10vh 89vh;
+    grid-row-gap: 1vh;
+    background-color: gray;
 }
 
-.app-header {
-  grid-area: header;
-  background-color: white;
-}
 
-.app-header img {
-  height: 10vh;
-}
 
-.app-nav {
-  grid-area: nav;
-  background-color: #0c222f;
-  font-size: 4vh;
-  padding-left: 1vw;
-  padding-bottom: 2vh;
-  color: white;
-}
-
-.app-nav div{
-  padding-bottom: 2vh;
-}
 
 

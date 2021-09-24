@@ -1,0 +1,25 @@
+.description {
+    padding-left: 1vh;
+}
+
+.name {
+    font-size: 3vh;
+}
+
+.activity {
+    padding-top: 1vh;
+    font-size: 1vh;
+    color: darkgreen;
+}
+
+.birthday {
+    padding-top: 2vh;
+}
+
+.city {
+    padding-top: 1vh;
+}
+
+.phone {
+    padding-top: 1vh;
+}

@@ -1,0 +1,5 @@
+.img {
+    grid-area: profileHeader;
+    height: 15vh;
+    width: 80vw;
+}
