@@ -6,8 +6,15 @@
     padding-bottom: 2vh;
     padding-top: 2vh;
     color: white;
+
 }
 
 .sections {
     padding-bottom: 1.5vh;
 }
+
+.sections a {
+    color: white;
+    text-decoration: none;
+}
+

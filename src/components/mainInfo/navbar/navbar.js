@@ -1,24 +1,30 @@
 import c from './navbar.module.css'
+import {NavLink} from "react-router-dom";
 
-const defLink = '#';
+const profileLink   = '/profile';
+const messageLink   = '/dialogs';
+const newsLink       = '/news';
+const musicLink     = '/music';
+const settingsLink  = '/settings';
 
 const Navbar = () => {
   return (
       <nav className={c.app_nav}>
           <div className={c.sections}>
-              <a href={defLink}>Profile</a>
+              <NavLink to={profileLink} activeClassName={c.activeLink}>Profile</NavLink>
           </div>
           <div className={c.sections}>
-              Message
+              <NavLink to={messageLink} activeClassName={c.activeLink}>Message</NavLink>
           </div>
           <div className={c.sections}>
-              New
+              <NavLink to={newsLink} activeClassName={c.activeLink}>News</NavLink>
           </div>
           <div className={c.sections}>
-              Music
+              <NavLink to={musicLink} activeClassName={c.activeLink}>Music</NavLink>
           </div>
           <div className={c.sections}>
-              Settings
+              <NavLink to={settingsLink} activeClassName={c.activeLink}>Settings</NavLink>
+
           </div>
       </nav>
   )

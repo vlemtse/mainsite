@@ -1,3 +1,51 @@
 .post {
     grid-area: post;
+    display: grid;
+    grid-template-columns: 8vw 1fr;
+    height: 8vw;
+    grid-template-areas: "avatar text";
 }
+
+.avatarBox {
+    margin: 1vw;
+}
+
+.avatar {
+    grid-area: avatar;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4vw;
+
+}
+
+.postBox {
+    display: block;
+    /*grid-template-rows: 2fr 1fr;*/
+    /*grid-template-areas: 'textBox' 'likesCountBox';*/
+}
+
+.textBox {
+    /*grid-area: textBox;*/
+    margin: 0.5vw;
+
+}
+
+.text {
+    grid-area: text;
+}
+
+.likesCountBox {
+    /*grid-area: likesCountBox;*/
+
+}
+
+.likesCountBox_count {
+
+}
+
+.likesCountBox_img {
+    height: 20px;
+    width: 20px;
+}
+

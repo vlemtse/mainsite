@@ -2,5 +2,7 @@
     grid-area: allPosts;
     display: grid;
     grid-gap: 1vh;
+    grid-template-areas: "newPost" "post";
+    grid-template-rows: 25vh 1fr;
 
 }

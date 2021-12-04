@@ -1,3 +1,24 @@
-.new_post {
-    grid-area: new_post;
+.newPost {
+    grid-area: newPost;
+}
+
+.textBox {
+    padding-left: 1vh;
+    padding-top: 4vh;
+    padding-right: 4vh;
+}
+
+.text {
+    border-radius: 1vh;
+    height: 10vh;
+    width: 50vw;
+}
+
+.submitBox {
+    padding-left: 1vh;
+    padding-top: 1vh;
+}
+
+.submit {
+
 }

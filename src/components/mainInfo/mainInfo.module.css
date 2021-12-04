@@ -2,11 +2,15 @@
   grid-area: mainInfo;
   display: grid;
 
-  grid-template-areas: "nav profilePage";
+  grid-template-areas: "nav content";
   grid-template-columns: 19vw 80vw;
   grid-column-gap: 1vw;
 
   background-color: gray;
+}
+
+.content {
+  grid-area: content;
 }
 
 

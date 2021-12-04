@@ -1,4 +1,4 @@
-.about_me {
+.aboutMe {
     grid-area: aboutMe;
     display: grid;
     grid-template-columns: 30vh 1fr;
